@@ -54,8 +54,8 @@ function App() {
 
 
       <Routes> {/* ✅ Ensure Routes is inside Router */}
-        <Route path="/" element={<Login />} />
-        <Route path="/Registeration" element={<Registeration />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Registeration />} />
         <Route path="/menu" element={<Menu />} /> {/* ✅ Correct lowercase paths */}
         <Route path="/home" element={<Home />} />
         <Route path="/ordered" element ={<Thankyoupage/>}/>
