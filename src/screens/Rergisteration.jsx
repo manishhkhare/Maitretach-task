@@ -17,7 +17,7 @@ export default function Registeration() {
       alert('empty')
     }else{
       toast.info("data submitted");
-      navigation('/')
+      navigation('/login')
     }
     console.log(data)
   }
